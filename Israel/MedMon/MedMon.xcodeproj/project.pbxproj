@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		156F74BD1990042300C75729 /* MDMPageTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F74BC1990042300C75729 /* MDMPageTwoViewController.m */; };
+		156FEB3E197D5BC30042A781 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156FEB3D197D5BC30042A781 /* Foundation.framework */; };
+		156FEB40197D5BC30042A781 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156FEB3F197D5BC30042A781 /* CoreGraphics.framework */; };
+		156FEB42197D5BC30042A781 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156FEB41197D5BC30042A781 /* UIKit.framework */; };
+		156FEB48197D5BC30042A781 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 156FEB46197D5BC30042A781 /* InfoPlist.strings */; };
+		156FEB4A197D5BC30042A781 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 156FEB49197D5BC30042A781 /* main.m */; };
+		156FEB4E197D5BC30042A781 /* MDMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 156FEB4D197D5BC30042A781 /* MDMAppDelegate.m */; };
+		156FEB50197D5BC30042A781 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 156FEB4F197D5BC30042A781 /* Images.xcassets */; };
+		156FEB57197D5BC30042A781 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156FEB56197D5BC30042A781 /* XCTest.framework */; };
+		156FEB58197D5BC30042A781 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156FEB3D197D5BC30042A781 /* Foundation.framework */; };
+		156FEB59197D5BC30042A781 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156FEB41197D5BC30042A781 /* UIKit.framework */; };
+		156FEB61197D5BC30042A781 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 156FEB5F197D5BC30042A781 /* InfoPlist.strings */; };
+		156FEB63197D5BC30042A781 /* MedMonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 156FEB62197D5BC30042A781 /* MedMonTests.m */; };
+		15A1E032199135F600F9E9D4 /* MDM_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15A1E031199135F600F9E9D4 /* MDM_iPad.storyboard */; };
+		15ACE26C1988291F002F2CDC /* MDMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15ACE26B1988291F002F2CDC /* MDMViewController.m */; };
+		15E46651198C86970061E5D4 /* MDMInputOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E46650198C86970061E5D4 /* MDMInputOutput.m */; };
+		7BCEF8B1198AD9C90042301E /* brain-machine_72_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BCEF8B0198AD9C90042301E /* brain-machine_72_2x.png */; };
+		7BEFAFF6199172BE00307B57 /* MDM.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BEFAFF5199172BE00307B57 /* MDM.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		156FEB5A197D5BC30042A781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 156FEB32197D5BC30042A781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 156FEB39197D5BC30042A781;
+			remoteInfo = MedMon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		156F74BB1990042300C75729 /* MDMPageTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMPageTwoViewController.h; sourceTree = "<group>"; };
+		156F74BC1990042300C75729 /* MDMPageTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMPageTwoViewController.m; sourceTree = "<group>"; };
+		156FEB3A197D5BC30042A781 /* MedMon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedMon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		156FEB3D197D5BC30042A781 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		156FEB3F197D5BC30042A781 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		156FEB41197D5BC30042A781 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		156FEB45197D5BC30042A781 /* MedMon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MedMon-Info.plist"; sourceTree = "<group>"; };
+		156FEB47197D5BC30042A781 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		156FEB49197D5BC30042A781 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		156FEB4B197D5BC30042A781 /* MedMon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MedMon-Prefix.pch"; sourceTree = "<group>"; };
+		156FEB4C197D5BC30042A781 /* MDMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMAppDelegate.h; sourceTree = "<group>"; };
+		156FEB4D197D5BC30042A781 /* MDMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMAppDelegate.m; sourceTree = "<group>"; };
+		156FEB4F197D5BC30042A781 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		156FEB55197D5BC30042A781 /* MedMonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedMonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		156FEB56197D5BC30042A781 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		156FEB5E197D5BC30042A781 /* MedMonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MedMonTests-Info.plist"; sourceTree = "<group>"; };
+		156FEB60197D5BC30042A781 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		156FEB62197D5BC30042A781 /* MedMonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedMonTests.m; sourceTree = "<group>"; };
+		15A1E031199135F600F9E9D4 /* MDM_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MDM_iPad.storyboard; sourceTree = "<group>"; };
+		15ACE26A1988291F002F2CDC /* MDMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMViewController.h; sourceTree = "<group>"; };
+		15ACE26B1988291F002F2CDC /* MDMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMViewController.m; sourceTree = "<group>"; };
+		15E4664F198C86970061E5D4 /* MDMInputOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMInputOutput.h; sourceTree = "<group>"; };
+		15E46650198C86970061E5D4 /* MDMInputOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMInputOutput.m; sourceTree = "<group>"; };
+		7BCEF8B0198AD9C90042301E /* brain-machine_72_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "brain-machine_72_2x.png"; path = "MedMon Icons/brain-machine_72_2x.png"; sourceTree = SOURCE_ROOT; };
+		7BEFAFF5199172BE00307B57 /* MDM.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MDM.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		156FEB37197D5BC30042A781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				156FEB40197D5BC30042A781 /* CoreGraphics.framework in Frameworks */,
+				156FEB42197D5BC30042A781 /* UIKit.framework in Frameworks */,
+				156FEB3E197D5BC30042A781 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		156FEB52197D5BC30042A781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				156FEB57197D5BC30042A781 /* XCTest.framework in Frameworks */,
+				156FEB59197D5BC30042A781 /* UIKit.framework in Frameworks */,
+				156FEB58197D5BC30042A781 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		156FEB31197D5BC30042A781 = {
+			isa = PBXGroup;
+			children = (
+				156FEB43197D5BC30042A781 /* MedMon */,
+				156FEB5C197D5BC30042A781 /* MedMonTests */,
+				156FEB3C197D5BC30042A781 /* Frameworks */,
+				156FEB3B197D5BC30042A781 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		156FEB3B197D5BC30042A781 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				156FEB3A197D5BC30042A781 /* MedMon.app */,
+				156FEB55197D5BC30042A781 /* MedMonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		156FEB3C197D5BC30042A781 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				156FEB3D197D5BC30042A781 /* Foundation.framework */,
+				156FEB3F197D5BC30042A781 /* CoreGraphics.framework */,
+				156FEB41197D5BC30042A781 /* UIKit.framework */,
+				156FEB56197D5BC30042A781 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		156FEB43197D5BC30042A781 /* MedMon */ = {
+			isa = PBXGroup;
+			children = (
+				7BCEF8B0198AD9C90042301E /* brain-machine_72_2x.png */,
+				156FEB4C197D5BC30042A781 /* MDMAppDelegate.h */,
+				156FEB4D197D5BC30042A781 /* MDMAppDelegate.m */,
+				156FEB4F197D5BC30042A781 /* Images.xcassets */,
+				156FEB44197D5BC30042A781 /* Supporting Files */,
+				15ACE26A1988291F002F2CDC /* MDMViewController.h */,
+				15ACE26B1988291F002F2CDC /* MDMViewController.m */,
+				156F74BB1990042300C75729 /* MDMPageTwoViewController.h */,
+				156F74BC1990042300C75729 /* MDMPageTwoViewController.m */,
+				15E4664F198C86970061E5D4 /* MDMInputOutput.h */,
+				15E46650198C86970061E5D4 /* MDMInputOutput.m */,
+				15A1E031199135F600F9E9D4 /* MDM_iPad.storyboard */,
+				7BEFAFF5199172BE00307B57 /* MDM.storyboard */,
+			);
+			path = MedMon;
+			sourceTree = "<group>";
+		};
+		156FEB44197D5BC30042A781 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				156FEB45197D5BC30042A781 /* MedMon-Info.plist */,
+				156FEB46197D5BC30042A781 /* InfoPlist.strings */,
+				156FEB49197D5BC30042A781 /* main.m */,
+				156FEB4B197D5BC30042A781 /* MedMon-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		156FEB5C197D5BC30042A781 /* MedMonTests */ = {
+			isa = PBXGroup;
+			children = (
+				156FEB62197D5BC30042A781 /* MedMonTests.m */,
+				156FEB5D197D5BC30042A781 /* Supporting Files */,
+			);
+			path = MedMonTests;
+			sourceTree = "<group>";
+		};
+		156FEB5D197D5BC30042A781 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				156FEB5E197D5BC30042A781 /* MedMonTests-Info.plist */,
+				156FEB5F197D5BC30042A781 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		156FEB39197D5BC30042A781 /* MedMon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 156FEB66197D5BC30042A781 /* Build configuration list for PBXNativeTarget "MedMon" */;
+			buildPhases = (
+				156FEB36197D5BC30042A781 /* Sources */,
+				156FEB37197D5BC30042A781 /* Frameworks */,
+				156FEB38197D5BC30042A781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedMon;
+			productName = MedMon;
+			productReference = 156FEB3A197D5BC30042A781 /* MedMon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		156FEB54197D5BC30042A781 /* MedMonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 156FEB69197D5BC30042A781 /* Build configuration list for PBXNativeTarget "MedMonTests" */;
+			buildPhases = (
+				156FEB51197D5BC30042A781 /* Sources */,
+				156FEB52197D5BC30042A781 /* Frameworks */,
+				156FEB53197D5BC30042A781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				156FEB5B197D5BC30042A781 /* PBXTargetDependency */,
+			);
+			name = MedMonTests;
+			productName = MedMonTests;
+			productReference = 156FEB55197D5BC30042A781 /* MedMonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		156FEB32197D5BC30042A781 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MDM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Health Information Management";
+				TargetAttributes = {
+					156FEB39197D5BC30042A781 = {
+						DevelopmentTeam = QTJUJJLUE7;
+					};
+					156FEB54197D5BC30042A781 = {
+						TestTargetID = 156FEB39197D5BC30042A781;
+					};
+				};
+			};
+			buildConfigurationList = 156FEB35197D5BC30042A781 /* Build configuration list for PBXProject "MedMon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 156FEB31197D5BC30042A781;
+			productRefGroup = 156FEB3B197D5BC30042A781 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				156FEB39197D5BC30042A781 /* MedMon */,
+				156FEB54197D5BC30042A781 /* MedMonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		156FEB38197D5BC30042A781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BEFAFF6199172BE00307B57 /* MDM.storyboard in Resources */,
+				7BCEF8B1198AD9C90042301E /* brain-machine_72_2x.png in Resources */,
+				156FEB48197D5BC30042A781 /* InfoPlist.strings in Resources */,
+				15A1E032199135F600F9E9D4 /* MDM_iPad.storyboard in Resources */,
+				156FEB50197D5BC30042A781 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		156FEB53197D5BC30042A781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				156FEB61197D5BC30042A781 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		156FEB36197D5BC30042A781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				156FEB4A197D5BC30042A781 /* main.m in Sources */,
+				15ACE26C1988291F002F2CDC /* MDMViewController.m in Sources */,
+				15E46651198C86970061E5D4 /* MDMInputOutput.m in Sources */,
+				156FEB4E197D5BC30042A781 /* MDMAppDelegate.m in Sources */,
+				156F74BD1990042300C75729 /* MDMPageTwoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		156FEB51197D5BC30042A781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				156FEB63197D5BC30042A781 /* MedMonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		156FEB5B197D5BC30042A781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 156FEB39197D5BC30042A781 /* MedMon */;
+			targetProxy = 156FEB5A197D5BC30042A781 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		156FEB46197D5BC30042A781 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				156FEB47197D5BC30042A781 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		156FEB5F197D5BC30042A781 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				156FEB60197D5BC30042A781 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		156FEB64197D5BC30042A781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		156FEB65197D5BC30042A781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		156FEB67197D5BC30042A781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MedMon/MedMon-Prefix.pch";
+				INFOPLIST_FILE = "MedMon/MedMon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		156FEB68197D5BC30042A781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MedMon/MedMon-Prefix.pch";
+				INFOPLIST_FILE = "MedMon/MedMon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		156FEB6A197D5BC30042A781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MedMon.app/MedMon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MedMon/MedMon-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MedMonTests/MedMonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		156FEB6B197D5BC30042A781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MedMon.app/MedMon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MedMon/MedMon-Prefix.pch";
+				INFOPLIST_FILE = "MedMonTests/MedMonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		156FEB35197D5BC30042A781 /* Build configuration list for PBXProject "MedMon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				156FEB64197D5BC30042A781 /* Debug */,
+				156FEB65197D5BC30042A781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		156FEB66197D5BC30042A781 /* Build configuration list for PBXNativeTarget "MedMon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				156FEB67197D5BC30042A781 /* Debug */,
+				156FEB68197D5BC30042A781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		156FEB69197D5BC30042A781 /* Build configuration list for PBXNativeTarget "MedMonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				156FEB6A197D5BC30042A781 /* Debug */,
+				156FEB6B197D5BC30042A781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 156FEB32197D5BC30042A781 /* Project object */;
+}
